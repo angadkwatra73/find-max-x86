@@ -1,0 +1,4 @@
+#ignore compiled and object files 
+
+find_max
+*.o
