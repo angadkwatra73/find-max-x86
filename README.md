@@ -16,8 +16,6 @@ sudo apt update
 sudo apt install gcc-multilib g++-multilib libc6-dev-i386
 
 
-```bash
-sudo apt install nasm gcc-multilib
 nasm -f elf32 max.asm -o max.o
 gcc -m32 main.c max.o -o find_max
 ./find_max
